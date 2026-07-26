@@ -11,7 +11,7 @@ export function CoursesSection() {
               Eğitim Programlarımız
             </span>
             <h2 className="mt-4 font-display text-4xl text-black lg:text-5xl">
-              Enstrümanların Büyülü Dünyası
+              Enstrüman ve Sanat Atölyelerimiz
             </h2>
           </div>
         </div>

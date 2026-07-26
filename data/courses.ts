@@ -13,7 +13,7 @@ export const courses: Course[] = [
     title: "Keman Eğitimi",
     category: "Klasik",
     description:
-      "Teknik ve duygunun mükemmel dengesiyle keman dünyasına adım atın.",
+      "Yaylı çalgıların en zarif üyesiyle duygularınızı notalara dökün. Enstrümanın teknik disiplinine, doğru duruş ve yay tekniklerine odaklanan birebir dersler.",
     imageAlt: "Keman eğitimi",
     imageSrc: "/images/course-violin.jpg",
   },
@@ -22,7 +22,7 @@ export const courses: Course[] = [
     title: "Piyano Eğitimi",
     category: "Konservatuvar",
     description:
-      "Tuşların arkasındaki hikayeyi keşfedin, virtüözlüğe giden yolu aralayın.",
+      "Müziğin temelini estetik ve disiplinle birleştirin. Klasik müzik literatürü eşliğinde, teknik ve teorik altyapıyı birleştiren akademik eğitim programı.",
     imageAlt: "Piyano eğitimi",
     imageSrc: "/images/course-piano.jpg",
   },
@@ -31,7 +31,7 @@ export const courses: Course[] = [
     title: "Gitar Eğitimi",
     category: "Modern",
     description:
-      "Klasikten moderne, tellerin tınısıyla kendi stilinizi yaratın.",
+      "Klasik, akustik ve elektro gitarla akorların ve ritmin dünyasına adım atın. Türsel çeşitlilikle desteklenen, solfej ve armoni altyapılı enstrüman hakimiyeti eğitimi.",
     imageAlt: "Gitar eğitimi",
     imageSrc: "/images/course-guitar.jpg",
   },
@@ -40,7 +40,7 @@ export const courses: Course[] = [
     title: "Bateri Eğitimi",
     category: "Vurmalı Çalgılar",
     description:
-      "Ritim duygunuzu geliştirin, modern teknikler ve koordinasyon çalışmalarıyla profesyonel davulculuğa adım atın.",
+      "Ritim duygunuzu zirveye taşıyın ve enerjinizi boşaltın. Ritim analizi, el-ayak koordinasyonu ve hız tekniklerini içeren kapsamlı ders programı.",
     imageSrc: "/images/course-drums.jpg",
     imageAlt: "Bateri eğitimi",
   },
@@ -49,7 +49,7 @@ export const courses: Course[] = [
     title: "Çello Eğitimi",
     category: "Klasik",
     description:
-      "Derin ve etkileyici tonlarıyla çello, orkestranın kalbinde yerinizi almanızı sağlar.",
+      "İnsan sesine en yakın frekansa sahip çello, derin tonlarıyla müziğin en asil enstrümanlarından biridir. Duruş estetiğini ve çok sesli duyumu geliştiren akademik çello eğitimi.",
     imageAlt: "Çello eğitimi",
     imageSrc: "/images/cello.webp",
   },
@@ -58,7 +58,7 @@ export const courses: Course[] = [
     title: "Resim Eğitimi",
     category: "Görsel Sanatlar",
     description:
-      "Fırça darbeleriyle hayal gücünüzü tuvale taşıyın, kendi görsel dilinizi keşfedin.",
+      "Karakalemden yağlı boyaya, renklerin büyülü dünyasında kendi tarzınızı keşfedin. Kompozisyon, perspektif ve renk teorisini birleştiren atölye çalışmalarıyla görsel dilinizi geliştirin.",
     imageAlt: "Resim eğitimi",
     imageSrc: "/images/course-painting.jpg",
   },
@@ -67,7 +67,7 @@ export const courses: Course[] = [
     title: "Seramik Eğitimi",
     category: "Görsel Sanatlar",
     description:
-      "Toprağın ruhunu ellerinizle şekillendirin, sabır ve yaratıcılığın buluştuğu bu sanatta ustalaşın.",
+      "Çamura şekil verirken toprağın enerjisiyle dinlenin, kendi hayal gücünüzü üç boyutlu eserlere dönüştürün. El becerisi ve üç boyutlu tasarım anlayışını geliştiren uygulamalı atölye dersleri.",
     imageAlt: "Seramik eğitimi",
     imageSrc: "/images/course-ceramic.webp",
   },
@@ -76,7 +76,7 @@ export const courses: Course[] = [
     title: "Tiyatro Eğitimi",
     category: "Sahne Sanatları",
     description:
-      "Sahnenin büyülü dünyasında sesinizi ve bedeninizi keşfederek karakterlere hayat verin.",
+      "Sahne tozuyla tanışın! Kendini ifade etme, hitabet ve empati yeteneğinizi tiyatro disipliniyle güçlendirin. Doğaçlama ve sahne çalışmalarıyla özgüveninizi ve beden dilinizi geliştirin.",
     imageAlt: "Tiyatro eğitimi",
     imageSrc: "/images/course-theatre.webp",
   },
