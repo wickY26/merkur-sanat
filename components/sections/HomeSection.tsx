@@ -30,7 +30,7 @@ export function HomeSection() {
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 25vw, 50vw"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDizHipof3-5SGLYlLq_CN6Qsv8ma-Hnsk_lZJilSyBr1rg6Tje4fFihVXXxYM7SEF6mJA4zOYwcd0aYa6pF9k1Vhj90LPuVVf9-64MydcwidnZXlMZl8zF3xm8wuDUIS8RTEDWHlqPKCtV2gBA8QPq416l8YqnYqdwcfvWYJM5OAHmLJdlOm8joPCJtBeHiCnaQiMWeqrEYcu6dv8f5Xt4TRVbc2-O3fioyEfK2SjTl46x5XhudH6w4g"
+                src="/images/hero-piano.webp"
                 alt="Piano"
               />
             </div>
@@ -57,7 +57,7 @@ export function HomeSection() {
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 25vw, 50vw"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSpE_ADNUZoDrFMMY4mgcdSiW-AxB-Ek_9Ub5ThoXrcQzhji__I-TNW1bBMZ9PTW0p2ZZVfg0fVZp0Asg4Fjs2Vi2i2z5fpKwxvhiIA-UfqSCJUQo5-yKDQI6wkLaYwR5aOkCJTB6Zk2TrnSrZf2BtI3vy641fHQR32XjQn7r50O8ozUfdUS7il7Osl8mKblcZeRDflubpPLDDE973KM7fs4thvqziW7qWorWdNpmFLrVMV3NlN1fCsQ"
+                src="/images/hero-cello.jpg"
                 alt="Cello"
               />
             </div>
