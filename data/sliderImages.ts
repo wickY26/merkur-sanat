@@ -6,6 +6,11 @@ export interface SliderImage {
 
 export const sliderImages: SliderImage[] = [
   {
+    src: "/images/instruments_slider.webp",
+    alt: "Enstrümanlar",
+    title: "Enstrümanlar",
+  },
+  {
     src: "/images/piano_slider.webp",
     alt: "Piyano eğitimi",
     title: "Piyano Eğitimi",
@@ -16,8 +21,8 @@ export const sliderImages: SliderImage[] = [
     title: "Keman Eğitimi",
   },
   {
-    src: "/images/instruments_slider.webp",
-    alt: "Enstrümanlar",
-    title: "Enstrümanlar",
+    src: "/images/guitar_slider.webp",
+    alt: "Gitar eğitimi",
+    title: "Gitar Eğitimi",
   },
 ];
