@@ -1,12 +1,15 @@
 import Image from "next/image";
+import { ImageSlider } from "@/components/ImageSlider";
 
 export function HomeSection() {
   return (
     <section
       id="home"
-      className="relative scroll-mt-16 overflow-hidden bg-white pb-32 pt-16"
+      className="relative scroll-mt-16 overflow-hidden bg-white pb-32"
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-20 px-5 md:px-16 lg:grid-cols-2">
+      <ImageSlider />
+
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-20 px-5 pt-16 md:px-16 lg:grid-cols-2">
         <div className="space-y-8">
           <h2 className="font-display text-4xl text-black md:text-5xl">
             Kökleri Sanatla <br />
