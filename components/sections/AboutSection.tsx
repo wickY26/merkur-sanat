@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { aboutFeatures } from "@/data/aboutFeatures";
 
 export function AboutSection() {
@@ -13,9 +14,18 @@ export function AboutSection() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-16">
-        <h2 className="font-display text-4xl text-black md:text-5xl">
-          Hakkımızda
-        </h2>
+        <div className="flex items-center gap-3 sm:gap-4">
+          <h2 className="font-display text-3xl text-black sm:text-4xl md:text-5xl">
+            Hakkımızda
+          </h2>
+          <Image
+            src="/images/meb_logo.webp"
+            alt="MEB Logo"
+            width={96}
+            height={96}
+            className="h-12 w-auto shrink-0 sm:h-16 md:h-20 lg:h-24"
+          />
+        </div>
         <div className="mt-6 h-1 w-20 bg-orange-500" />
 
         <div className="mt-8 max-w-3xl space-y-6 text-lg leading-relaxed text-black/70">

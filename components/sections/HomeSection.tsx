@@ -26,35 +26,16 @@ export function HomeSection() {
         </div>
 
         <div className="grid grid-cols-2 gap-4 lg:mt-10">
-          {/* Images/Stats content remains same */}
-          <div className="space-y-4">
-            <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
-              <Image
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 25vw, 50vw"
-                src="/images/hero-piano.webp"
-                alt="Piano"
-              />
-            </div>
-            <div className="flex flex-col items-center rounded-sm border border-black/5 bg-gray-100 p-4 text-center md:p-8">
-              <div className="mb-2 font-display text-3xl text-orange-500 md:text-5xl">
-                25+
-              </div>
-              <div className="text-[10px] uppercase tracking-widest text-black/60 md:text-xs">
-                Yıllık Deneyim
-              </div>
-            </div>
+          <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
+            <Image
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 25vw, 50vw"
+              src="/images/hero-piano.webp"
+              alt="Piano"
+            />
           </div>
-          <div className="space-y-4 pt-12">
-            <div className="flex flex-col items-center rounded-sm border border-gray-950 bg-gray-950 p-4 text-center md:p-8">
-              <div className="mb-2 font-display text-3xl text-orange-500 md:text-5xl">
-                500+
-              </div>
-              <div className="text-[10px] uppercase tracking-widest text-white/80 md:text-xs">
-                Mezun Sanatçı
-              </div>
-            </div>
+          <div className="pt-12">
             <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
               <Image
                 fill
