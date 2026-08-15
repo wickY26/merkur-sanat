@@ -37,20 +37,23 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 z-50 w-full border-b border-black/10 bg-white/95 shadow-sm backdrop-blur-md">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-16">
-          <div className="flex items-center">
+      <header className="fixed top-0 z-50 w-full bg-black shadow-sm">
+        <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:px-16">
+          <a
+            href="#home"
+            aria-label="Ana sayfaya git"
+            className="relative aspect-[4.6] h-9 overflow-hidden sm:h-9 md:h-10 lg:h-11"
+          >
             <Image
-              src="/logo.png"
+              src="/images/merkur_music_logo.webp"
               alt="Merkür Müzik Sanat Merkezi Logo"
-              width={548}
-              height={120}
+              fill
               quality={100}
               unoptimized
               priority
-              className="h-10 w-auto object-contain sm:h-10 md:h-11 lg:h-12"
+              className="object-cover object-center"
             />
-          </div>
+          </a>
 
           <div className="hidden items-center gap-8 md:flex">
             {navLinks.map((link) => {
@@ -63,7 +66,7 @@ export function Header() {
                   className={`relative text-xs font-semibold uppercase tracking-wider transition-colors duration-300 ${
                     isActive
                       ? "text-orange-500"
-                      : "text-black/70 hover:text-orange-500"
+                      : "text-white/70 hover:text-orange-500"
                   }`}
                 >
                   {link.label}
@@ -77,7 +80,7 @@ export function Header() {
             onClick={() => setIsMenuOpen((prev) => !prev)}
             aria-label={isMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
             aria-expanded={isMenuOpen}
-            className="flex items-center justify-center text-black md:hidden"
+            className="flex items-center justify-center text-white md:hidden"
           >
             <svg
               width="27"
@@ -109,7 +112,7 @@ export function Header() {
 
       <div
         aria-hidden={!isMenuOpen}
-        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-white/95 backdrop-blur-lg transition-all duration-300 ease-out md:hidden ${
+        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-black transition-all duration-300 ease-out md:hidden ${
           isMenuOpen
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none -translate-y-3 opacity-0"
@@ -126,7 +129,7 @@ export function Header() {
               className={`font-display text-xl tracking-wide transition-colors duration-300 ${
                 isActive
                   ? "text-orange-500"
-                  : "text-black hover:text-orange-500"
+                  : "text-white hover:text-orange-500"
               }`}
             >
               {link.label}

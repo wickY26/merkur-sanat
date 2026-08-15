@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { aboutFeatures } from "@/data/aboutFeatures";
 
 export function AboutSection() {
@@ -18,21 +19,32 @@ export function AboutSection() {
         </h2>
         <div className="mt-6 h-1 w-20 bg-orange-500" />
 
-        <div className="mt-8 max-w-3xl space-y-6 text-lg leading-relaxed text-black/70">
-          <p>
-            Merkür Sanat olarak, müziğin evrensel dilini ve dönüştürücü
-            gücünü her yaştan sanatseverle buluşturmak amacıyla yola çıktık.
-            T.C. Millî Eğitim Bakanlığı (MEB) onaylı bir kurum olmanın
-            verdiği sorumlulukla; çocuklara, gençlere ve ruhunu müzikle
-            beslemek isteyen tüm yetişkinlere profesyonel bir çatı altında
-            enstrüman kursları veriyoruz.
-          </p>
-          <p>
-            Alanında uzman, konservatuvar mezunu ve pedagojik formasyona
-            sahip profesyonel eğitmen kadromuzla, sadece teknik bir eğitim
-            sunmuyor; aynı zamanda öğrencilerimizin sanatsal vizyonlarını
-            geliştirmeyi ve yaratıcılıklarını açığa çıkarmayı hedefliyoruz.
-          </p>
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr] lg:gap-6">
+          <div className="space-y-6 text-lg leading-relaxed text-black/70">
+            <p>
+              Merkür Sanat olarak, müziğin evrensel dilini ve dönüştürücü
+              gücünü her yaştan sanatseverle buluşturmak amacıyla yola çıktık.
+              T.C. Millî Eğitim Bakanlığı (MEB) onaylı bir kurum olmanın
+              verdiği sorumlulukla; çocuklara, gençlere ve ruhunu müzikle
+              beslemek isteyen tüm yetişkinlere profesyonel bir çatı altında
+              enstrüman kursları veriyoruz.
+            </p>
+            <p>
+              Alanında uzman, konservatuvar mezunu ve pedagojik formasyona
+              sahip profesyonel eğitmen kadromuzla, sadece teknik bir eğitim
+              sunmuyor; aynı zamanda öğrencilerimizin sanatsal vizyonlarını
+              geliştirmeyi ve yaratıcılıklarını açığa çıkarmayı hedefliyoruz.
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/meb_logo.png"
+              alt="MEB Logo"
+              width={96}
+              height={96}
+              className="h-24 w-auto sm:h-28 md:h-32 lg:h-40"
+            />
+          </div>
         </div>
 
         <h3 className="mt-16 font-display text-2xl text-black md:text-3xl">
