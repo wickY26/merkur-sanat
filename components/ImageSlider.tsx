@@ -87,17 +87,39 @@ export function ImageSlider() {
             index === activeIndex ? "opacity-100" : "opacity-0"
           }`}
         >
-          <Image
-            src={image.src}
-            alt={image.alt}
-            fill
-            priority={index === 0}
-            quality={100}
-            sizes="(max-width: 768px) 300vw, 100vw"
-            className={`object-cover transition-transform duration-[6000ms] ease-out ${
-              index === activeIndex ? "scale-110" : "scale-100"
-            }`}
-          />
+          {image.collageImages ? (
+            <div className="grid h-full w-full grid-cols-2 grid-rows-2 gap-0.5 sm:grid-cols-4 sm:grid-rows-1 sm:gap-1">
+              {image.collageImages.map((collageImage) => (
+                <div
+                  key={collageImage.src}
+                  className="relative h-full w-full overflow-hidden"
+                >
+                  <Image
+                    src={collageImage.src}
+                    alt={collageImage.alt}
+                    fill
+                    quality={100}
+                    sizes="(max-width: 640px) 50vw, 25vw"
+                    className={`object-cover transition-transform duration-[6000ms] ease-out ${
+                      index === activeIndex ? "scale-110" : "scale-100"
+                    }`}
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              priority={index === 0}
+              quality={100}
+              sizes="(max-width: 768px) 300vw, 100vw"
+              className={`object-cover transition-transform duration-[6000ms] ease-out ${
+                index === activeIndex ? "scale-110" : "scale-100"
+              }`}
+            />
+          )}
         </div>
       ))}
 

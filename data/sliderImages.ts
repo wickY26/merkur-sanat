@@ -1,7 +1,13 @@
+export interface SliderCollageImage {
+  src: string;
+  alt: string;
+}
+
 export interface SliderImage {
   src: string;
   alt: string;
   title: string;
+  collageImages?: SliderCollageImage[];
 }
 
 export const sliderImages: SliderImage[] = [
@@ -24,5 +30,25 @@ export const sliderImages: SliderImage[] = [
     src: "/images/guitar_slider.webp",
     alt: "Gitar eğitimi",
     title: "Gitar Eğitimi",
+  },
+  {
+    src: "/images/collage_piano.webp",
+    alt: "Derslerimizden kareler",
+    title: "Derslerimizden Kareler",
+    collageImages: [
+      { src: "/images/collage_piano.webp", alt: "Piyano dersinden bir kare" },
+      {
+        src: "/images/collage_violin_piano.webp",
+        alt: "Keman ve piyano dersinden bir kare",
+      },
+      {
+        src: "/images/collage_violins_circle.webp",
+        alt: "Keman öğrencilerinden bir kare",
+      },
+      {
+        src: "/images/collage_violins_chairs.webp",
+        alt: "Keman dersinden bir kare",
+      },
+    ],
   },
 ];
