@@ -38,7 +38,7 @@ export function AboutSection() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/images/meb_logo.webp"
+              src="/images/meb_logo.png"
               alt="MEB Logo"
               width={96}
               height={96}
