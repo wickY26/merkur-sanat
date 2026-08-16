@@ -11,8 +11,8 @@ export function KvkkContent() {
           Merkür Müzik Akademisi
         </p>
         <p>
-          <span className="font-semibold text-black">Adres:</span> Merkez,
-          Nurtanesi Sokağı 11/A, 34782 Çekmeköy/İstanbul
+          <span className="font-semibold text-black">Adres:</span> Merkez Mahallesi,
+          Nurtanesi Sokağı 11/A - 13/A, 34782 Çekmeköy/İstanbul
         </p>
         <p>
           <span className="font-semibold text-black">Telefon:</span> 0551 470

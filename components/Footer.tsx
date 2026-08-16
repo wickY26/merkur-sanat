@@ -16,10 +16,6 @@ export function Footer() {
           <div className="font-display text-lg text-black">
             Merkür Müzik ve Sanat Akademisi
           </div>
-          <p className="max-w-xs text-center text-sm text-black/60 md:text-left">
-            Sanatın ve eğitimin buluştuğu nokta. Müzikle dolu bir gelecek için
-            buradayız.
-          </p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 text-sm">
