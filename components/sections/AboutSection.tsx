@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { aboutFeatures } from "@/data/aboutFeatures";
 
 export function AboutSection() {
@@ -18,20 +19,31 @@ export function AboutSection() {
         </h2>
         <div className="mt-6 h-1 w-20 bg-orange-500" />
 
-        <div className="mt-8 max-w-3xl space-y-6 text-lg leading-relaxed text-black/70">
-          <p>
-            Merkür Müzik ve Sanat Akademisi olarak, müziğin ve sanatın
-            birleştirici, iyileştirici ve dönüştürücü gücüne inanıyoruz.
-            Kurulduğumuz günden bu yana, her yaştan sanatseveri hayalleriyle
-            buluşturmak, içlerindeki yaratıcı potansiyeli açığa çıkarmak ve
-            bu yolculukta onlara profesyonel bir rehber olmak için tutkuyla
-            çalışıyoruz.
-          </p>
-          <p>
-            Akademimiz, sadece bir eğitim merkezi değil; sanatın her
-            branşına duyulan sevginin akademik bir disiplinle harmanlandığı,
-            üretken ve ilham dolu bir yaşam alanıdır.
-          </p>
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr] lg:gap-6">
+          <div className="space-y-6 text-lg leading-relaxed text-black/70">
+            <p>
+              Merkür Müzik ve Sanat Akademisi olarak, müziğin ve sanatın
+              birleştirici, iyileştirici ve dönüştürücü gücüne inanıyoruz.
+              Kurulduğumuz günden bu yana, her yaştan sanatseveri hayalleriyle
+              buluşturmak, içlerindeki yaratıcı potansiyeli açığa çıkarmak ve
+              bu yolculukta onlara profesyonel bir rehber olmak için tutkuyla
+              çalışıyoruz.
+            </p>
+            <p>
+              Akademimiz, sadece bir eğitim merkezi değil; sanatın her
+              branşına duyulan sevginin akademik bir disiplinle harmanlandığı,
+              üretken ve ilham dolu bir yaşam alanıdır.
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/meb_logo.png"
+              alt="MEB Logo"
+              width={96}
+              height={96}
+              className="h-24 w-auto sm:h-28 md:h-32 lg:h-40"
+            />
+          </div>
         </div>
 
         <h3 className="mt-16 font-display text-2xl text-black md:text-3xl">

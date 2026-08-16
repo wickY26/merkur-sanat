@@ -1,12 +1,15 @@
 import Image from "next/image";
+import { ImageSlider } from "@/components/ImageSlider";
 
 export function HomeSection() {
   return (
     <section
       id="home"
-      className="relative scroll-mt-16 overflow-hidden bg-white pb-32 pt-16"
+      className="relative scroll-mt-16 overflow-hidden bg-white pb-32"
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-20 px-5 md:px-16 lg:grid-cols-2">
+      <ImageSlider />
+
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-20 px-5 pt-16 md:px-16 lg:grid-cols-2">
         <div className="space-y-8">
           <h2 className="font-display text-4xl text-black md:text-5xl">
             Müzik, Resim, Tiyatro <br />
@@ -21,35 +24,16 @@ export function HomeSection() {
         </div>
 
         <div className="grid grid-cols-2 gap-4 lg:mt-10">
-          {/* Images/Stats content remains same */}
-          <div className="space-y-4">
-            <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
-              <Image
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 25vw, 50vw"
-                src="/images/hero-piano.webp"
-                alt="Piano"
-              />
-            </div>
-            <div className="flex flex-col items-center rounded-sm border border-black/5 bg-gray-100 p-4 text-center md:p-8">
-              <div className="mb-2 font-display text-3xl text-orange-500 md:text-5xl">
-                25+
-              </div>
-              <div className="text-[10px] uppercase tracking-widest text-black/60 md:text-xs">
-                Yıllık Deneyim
-              </div>
-            </div>
+          <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
+            <Image
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 25vw, 50vw"
+              src="/images/hero-piano.webp"
+              alt="Piano"
+            />
           </div>
-          <div className="space-y-4 pt-12">
-            <div className="flex flex-col items-center rounded-sm border border-gray-950 bg-gray-950 p-4 text-center md:p-8">
-              <div className="mb-2 font-display text-3xl text-orange-500 md:text-5xl">
-                500+
-              </div>
-              <div className="text-[10px] uppercase tracking-widest text-white/80 md:text-xs">
-                Mezun Sanatçı
-              </div>
-            </div>
+          <div className="pt-12">
             <div className="relative h-64 overflow-hidden rounded-sm border border-black/10">
               <Image
                 fill
