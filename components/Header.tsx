@@ -46,7 +46,7 @@ export function Header() {
           >
             <Image
               src="/images/merkur_music_logo.webp"
-              alt="Merkür Müzik Sanat Merkezi Logo"
+              alt="Merkür Müzik ve Sanat Akademisi Logo"
               fill
               quality={100}
               unoptimized

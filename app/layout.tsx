@@ -21,9 +21,9 @@ const hankenGrotesk = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Merkür Müzik Akademisi",
+  title: "Merkür Müzik ve Sanat Akademisi",
   description:
-    "Merkür Müzik Akademisi — klasik disiplini modern vizyonla birleştirerek yeteneklerinizi sanata dönüştürüyor.",
+    "Merkür Müzik ve Sanat Akademisi — klasik disiplini modern vizyonla birleştirerek yeteneklerinizi sanata dönüştürüyor.",
 };
 
 export default function RootLayout({
