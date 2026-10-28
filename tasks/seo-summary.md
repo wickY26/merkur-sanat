@@ -1,9 +1,25 @@
 # SEO — Status Summary & Handoff
 
 Starting point for the next session, which will turn this into a long-term SEO plan.
-Last updated: 2026-09-25 (branch `feat/seo-article-pages`).
+Last updated: 2026-10-28 (branch `feat/cekmekoy-seo-pages`).
 
-## Done in this branch
+## Second brief: Çekmeköy-first pages (2026-10-28)
+
+- 5 more articles from a second set of .docx briefs, same pipeline and rules:
+  `/cekmekoy-seramik-workshop`, `/cekmekoy-resim-kursu`, `/cekmekoy-piyano-dersi`,
+  `/cekmekoy-bateri-dersi`, `/cekmekoy-drama-dersi` (10 article pages total).
+- The old `/…-cekmekoy` pages stay live (user decision). No redirects.
+- Text is verbatim, with no edits this time. The Resim heading says "Merkür Sanat Farkı",
+  which is left as-is.
+- Headings H1 → H2…H6 → H6. 8 bold keywords per article (Resim has 7, as in the brief).
+- Meta descriptions written by us. **They still need SEO manager review.**
+- No internal links: the new pages are reachable only through `sitemap.xml`.
+- **Risk:** "piyano dersi çekmeköy" and "çekmeköy piyano dersi" are effectively the same
+  query, so each pair of pages competes for it (keyword cannibalization) and could look
+  like doorway pages. Watch Search Console. If both versions of a page split impressions,
+  301 the weaker one to the stronger.
+
+## Done in the first brief (2026-09-25)
 
 **SEO article pages** (the SEO manager's brief, content from 5 .docx files):
 - `/seramik-workshop-cekmekoy`, `/resim-kursu-cekmekoy`, `/piyano-dersi-cekmekoy`,
